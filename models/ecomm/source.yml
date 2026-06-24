@@ -1,11 +1,9 @@
 version: 2 
 
- 
-
 sources: 
 
   - name: customers 
-
+    
     database: ECOMM_RAW 
 
     schema: CUSTOMERS 
@@ -110,4 +108,16 @@ sources:
 
     tables: 
 
-      - name: support_tickets 
+      - name: support_tickets
+
+  - name: stg_campaigns 
+
+    database: TEST1 
+
+    schema: DBT_SAIROHIT0917 
+
+    tables: 
+
+      - name: stg_campaigns
+
+    
