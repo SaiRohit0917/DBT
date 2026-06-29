@@ -2,5 +2,5 @@
 select id as customer_id,
 first_name,
 last_name,
-email
-from  {{source('jaffle_shop','customers')}}
+first_name||last_name||'@gmail.com' as email
+from {{source('jaffle_shop','customers')}}

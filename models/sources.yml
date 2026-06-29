@@ -13,3 +13,9 @@ sources:
     schema: stripe
     tables:
       - name: payment
+
+  - name: customers
+    database: TEST1
+    schema: DBT_SAIROHIT0917
+    tables:
+      - name: stg_customer_address
